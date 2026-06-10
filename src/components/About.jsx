@@ -8,10 +8,10 @@ const About = () => {
         <div className="glass-panel animate-on-scroll" style={{ padding: '2rem' }}>
           <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }} className="text-gradient">Professional Summary</h3>
           <p style={{ color: 'var(--text-color)', lineHeight: '1.8' }}>
-            Cybersecurity-focused Computer Science undergraduate with experience building secure, scalable backend systems and real-time threat detection applications. Proficient in Spring Boot, FastAPI, and Kafka, with hands-on experience in API security, authentication and intrusion detection using machine learning.
+            Full-Stack Freelance Developer and Computer Science undergraduate specializing in designing and building custom end-to-end web applications. I solve complex business problems for clients by combining premium user-friendly frontends (React) with robust, secure, and highly scalable backend architectures (Spring Boot, Node.js, FastAPI).
           </p>
           <p style={{ color: 'var(--text-color)', lineHeight: '1.8', marginTop: '1rem' }}>
-            Demonstrated ability to design high-performance systems handling large-scale data with a strong emphasis on security and reliability.
+            Known for delivering production-ready, performant software solutions from interactive user interfaces to event-driven architectures with high-security standards.
           </p>
         </div>
         
