@@ -10,6 +10,9 @@ const Contact = () => {
         </p>
         
         <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap', marginBottom: '3rem' }}>
+          <a href="mailto:Vansh.119525@stu.upes.ac.in" className="contact-link">
+            <span className="icon">✉</span> Vansh.119525@stu.upes.ac.in
+          </a>
           <a href="mailto:vanshmalik862@gmail.com" className="contact-link">
             <span className="icon">✉</span> vanshmalik862@gmail.com
           </a>

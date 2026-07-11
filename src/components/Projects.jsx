@@ -4,23 +4,22 @@ const Projects = () => {
   const projects = [
     {
       title: "ORION: Operational Risk Identification and Observation Network",
-      tech: ["FastAPI", "Python", "Random Forest", "OAuth2", "JWT", "Intrusion Detection"],
+      tech: ["FastAPI", "Python", "Random Forest", "OAuth2", "JWT", "Intrusion Detection", "NSL-KDD"],
       link: "https://github.com/vnshMal/ORION-",
       desc: [
-        "Built AI-based threat detection model (Random Forest, NSL-KDD) achieving 97.3% accuracy and 99.8% recall.",
+        "Trained an AI-based threat detection model (Random Forest, NSL-KDD) achieving 97.3% accuracy and 99.8% recall.",
         "Engineered a full-stack Intrusion Detection System (IDS) capable of real-time server monitoring.",
-        "Developed a high-performance RESTful API using FastAPI, secured with JWT-based OAuth2 authentication."
+        "Designed a high-performance RESTful API using FastAPI, secured with JWT-based OAuth2 authentication."
       ]
     },
     {
-      title: "SPARK — Real-Time AI Market Monitor",
-      tech: ["Next.js", "FastAPI", "Python", "Scikit-Learn", "Machine Learning", "APIs"],
-      link: "https://github.com/vnshMal/SPARK",
+      title: "Barber Automation — Multi-Role Salon Management SaaS",
+      tech: ["React", "Node.js", "Express.js", "MongoDB", "Socket.IO", "Razorpay", "REST API", "RBAC"],
+      link: "https://github.com/vnshMal",
       desc: [
-        "Constructed a full-stack financial dashboard using Next.js and a Python FastAPI microservice.",
-        "Trained an optimized Random Forest classifier with Scikit-Learn using 5 years of historical data.",
-        "Implemented RSI, EMA features achieving >85% accuracy in forecasting stock trends.",
-        "Executed parallelized API fetching ensuring fast rendering and 100% uptime."
+        "Architected and deployed a multi-tenant RESTful API with 20+ endpoints managing RBAC across 4 roles (Customer, Barber, Owner, Admin).",
+        "Orchestrated real-time queue sync via Socket.IO (under 50ms latency); architected MongoDB schemas across 8+ collections with 30% query performance improvement via indexing.",
+        "Integrated Razorpay payment gateway with webhook verification and SMTP booking confirmation; deployed on Render with CI/CD via GitHub."
       ]
     }
   ];

@@ -42,19 +42,25 @@ const Skills = () => {
       <h2 className="section-title animate-on-scroll">Technical Skills</h2>
       <div className="skills-container">
         <div className="skill-category glass-panel animate-on-scroll" style={{ transitionDelay: '0s' }}>
-          <h3 className="text-gradient">Languages</h3>
+          <h3 className="text-gradient">Programming Languages</h3>
           <div className="skill-badges">
             {['Java', 'Python', 'JavaScript', 'C'].map(s => <span key={s} className="badge">{s}</span>)}
           </div>
         </div>
         <div className="skill-category glass-panel animate-on-scroll" style={{ transitionDelay: '0.1s' }}>
-          <h3 className="text-gradient">Frameworks</h3>
+          <h3 className="text-gradient">Frameworks & Libraries</h3>
           <div className="skill-badges">
             {['Kafka', 'Spring Boot', 'React Native', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Scikit-Learn'].map(s => <span key={s} className="badge">{s}</span>)}
           </div>
         </div>
         <div className="skill-category glass-panel animate-on-scroll" style={{ transitionDelay: '0.2s' }}>
-          <h3 className="text-gradient">Developer Tools</h3>
+          <h3 className="text-gradient">Concepts & Security</h3>
+          <div className="skill-badges">
+            {['OAuth2', 'JWT', 'Intrusion Detection', 'Microservices', 'API Security', 'RESTful APIs'].map(s => <span key={s} className="badge">{s}</span>)}
+          </div>
+        </div>
+        <div className="skill-category glass-panel animate-on-scroll" style={{ transitionDelay: '0.3s' }}>
+          <h3 className="text-gradient">Tools & Utilities</h3>
           <div className="skill-badges">
             {['Maven', 'Git', 'Docker', 'Postman', 'VS Code', 'Visual Studio', 'PyCharm', 'IntelliJ', 'Figma'].map(s => <span key={s} className="badge">{s}</span>)}
           </div>
@@ -70,14 +76,14 @@ const Skills = () => {
               <li className="pub-li">
                 <strong>ML for Real-Time Threat Detection</strong> <br/>
                 <span style={{fontSize:'0.85em', color:'var(--text-muted)'}}>
-                  Published in Current Trends and Advancement on Cyber Security and Digital Forensic. <br/>
+                  Published in *Current Trends and Advancements in Cybersecurity and Digital Forensics*. <br/>
                   ISBN: 978-93-342-1179-5 | DOI: 10.5281/zenodo.17556037
                 </span>
               </li>
               <li className="pub-li">
-                <strong>Palm Vein Recognition using Near Infrared Imaging & CNN-based feature extraction for biometric authentication</strong> <br/>
+                <strong>Palm Vein Recognition using NIR Imaging & CNN for biometric authentication</strong> <br/>
                 <span style={{fontSize:'0.85em', color:'var(--text-muted)'}}>
-                  Biometric Authentication Systems Research & Development.
+                  Biometric authentication utilizing convolutional neural networks and near-infrared imaging.
                 </span>
               </li>
             </ul>

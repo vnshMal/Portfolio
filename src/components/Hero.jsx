@@ -8,12 +8,12 @@ const Hero = () => {
         
         {/* Left Column: Text Content */}
         <div className="hero-left">
-          <h4 className="hero-tagline">FREELANCE FULL-STACK DEVELOPER</h4>
+          <h4 className="hero-tagline">CYBERSECURITY & BACKEND DEVELOPER</h4>
           <h1 className="hero-title">
             Vansh <span className="highlight-text">Malik.</span>
           </h1>
           <p className="hero-description">
-            I build fast, responsive, and secure full-stack web applications—solving business problems from premium user interfaces to robust, high-performance backends.
+            Cybersecurity-focused Computer Science undergraduate experienced in building secure, scalable backend systems, microservices, and intrusion detection models. Proficient in Spring Boot, FastAPI, and Apache Kafka.
           </p>
           
           <div className="hero-actions">
@@ -31,15 +31,15 @@ const Hero = () => {
           
           <div className="hero-stats">
             <div className="stat-item">
-              <span className="stat-number">3+</span>
-              <span className="stat-label">Months Experience</span>
+              <span className="stat-number">2</span>
+              <span className="stat-label">Research Publications</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">5+</span>
-              <span className="stat-label">Projects Completed</span>
+              <span className="stat-number">2+</span>
+              <span className="stat-label">Core Projects</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">10+</span>
+              <span className="stat-number">4+</span>
               <span className="stat-label">Certifications</span>
             </div>
           </div>
@@ -51,16 +51,16 @@ const Hero = () => {
             
             {/* Top-Left Floating Badge */}
             <div className="floating-badge badge-top-left glass-badge">
-              <span className="badge-tag">EXPERIENCE</span>
-              <span className="badge-value">3 Months</span>
-              <span className="badge-desc">Full-Stack Dev</span>
+              <span className="badge-tag">EDUCATION</span>
+              <span className="badge-value">B.Tech CSE</span>
+              <span className="badge-desc">Cybersecurity @ UPES</span>
             </div>
             
             {/* Bottom-Right Floating Badge */}
             <div className="floating-badge badge-bottom-right glass-badge">
               <span className="badge-tag">INTERN AT</span>
               <span className="badge-value">Graphura Pvt Ltd</span>
-              <span className="badge-desc">June 2026 - Present</span>
+              <span className="badge-desc">Apr 2026 – July 2026</span>
             </div>
             
             {/* Main Photo Card */}
@@ -71,11 +71,11 @@ const Hero = () => {
               <div className="profile-card-footer">
                 <div className="footer-details">
                   <h3 className="footer-name">Vansh Malik</h3>
-                  <p className="footer-title">Full-Stack Freelance • UPES</p>
+                  <p className="footer-title">Backend & Cybersecurity • UPES</p>
                   <div className="footer-pills">
-                    <span className="pill">React</span>
-                    <span className="pill">Node.js</span>
                     <span className="pill">Spring Boot</span>
+                    <span className="pill">FastAPI</span>
+                    <span className="pill">Kafka</span>
                   </div>
                 </div>
                 <div className="footer-initials-badge">VM</div>

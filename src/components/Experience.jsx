@@ -5,21 +5,21 @@ const Experience = () => {
     {
       title: "Full Stack Developer Intern",
       company: "Graphura Pvt Ltd, Gurugram",
-      period: "Apr 2026 – Present",
+      period: "Apr 2026 – July 2026",
       points: [
-        "Enhanced Spring Boot backend services for API reselling platform handling 100+ requests/day.",
-        "Implemented API authentication and usage tracking.",
-        "Reduced integration time by 40% through modular architecture design."
+        "Collaborated in an Agile development team to build a multi-role Barber Automation SaaS platform serving 28+ simulated regional salons, reducing customer booking overhead by 40%.",
+        "Programmed an automated queue state-machine that handles live status transitions (delayed, checked in, no-show), reducing manual scheduling errors by 30% through instant queue position updates.",
+        "Implemented a background cron check engine running on a 24-hour interval that scans database logs and triggers automated re-engagement SMTP emails for inactive users, boosting simulated customer retention by 18%."
       ]
     },
     {
-      title: "Software Engineering Virtual Experience",
-      company: "JPMorgan Chase & Co. (Forage) – Remote",
-      period: "Mar 2026 – Apr 2026",
+      title: "Trainee Engineer",
+      company: "Karishma Computers Pvt. Ltd., Noida",
+      period: "June 2026 – July 2026",
       points: [
-        "Built Spring Boot backend handling 10,000+ transactions/day with <200ms latency.",
-        "Integrated Apache Kafka for event-driven processing of 100+ events/day.",
-        "Designed REST API controller-service architecture."
+        "Configured and optimized local area networks (LAN/WAN) and IT infrastructure for 50+ corporate workstations, achieving 99.9% network uptime.",
+        "Fortified systems security by implementing firewalls, deploying active anti-malware policies, and setting up secure access permissions.",
+        "Diagnosed and resolved complex hardware and software failures for 120+ client devices, reducing maintenance turnaround times by 30%."
       ]
     }
   ];
